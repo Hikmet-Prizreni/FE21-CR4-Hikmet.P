@@ -1,174 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" type='text/css' href="css-sass/style.css" />
-    <link>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Album example · Bootstrap v5.1</title>
+    <title>Code Review 4 - Hikmet Prizreni</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+</head>
 
-    
-
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    
-  </head>
-  <body>  
-<header>
-      <div>
-        <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto text-light bg-dark" width= "100%"> 
-                <h1 class="fw-light"><h1>Moovie Factory</h1>
-      </div>
-</header>
-<main>
-
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-       
-      </div> 
-    </div>
-  </section>
-
-  <div class="album py-5 bg-light">
-    <div class="container">
-        <div>
-            <section class="py-5 text-center container bg-secondary">
-                <div class="row py-lg-5">
-                  <div class="col-lg-6 col-md-8 mx-auto">
-                  
+<body>
+    <header>
+        <div class="bg-dark text-white text-center p-3">
+            <p class="h2">Movie Factory</p>
+            <div id="likessorted" class="btn btn-primary">Sort by Likes</div>
         </div>
+    </header>
+    <main>
+        <div class=" maincontainer bg-secondary">
+            <div class="container bg-danger">
+                <div id="mov" class="row">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="Images\Cash Truck.jpg"alt="Baguette-Spinach-overbacked cheese" width="100%" height="100%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
-            <div class="text-light bg-dark">
-              <p class="baguette-text"><h1>Cash Truck</h1> A mysterious vengeful man takes a job as a security guard for a money transport company amidst a series of violent robberies. A mysterious vengeful man takes a job as a security guard for a money transport company amidst a series of violent robberies.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Disslike</button>
                 </div>
-                
-              </div>
             </div>
-          </div>
         </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" img:width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="0%" fill="#55595c"/><img src="Images\Catweazle.jpg" alt="filled Tommatos" width="100%" height="0%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
-            <div class="text-light bg-dark">
-              <p class="cherry tomatoes-text"><h1>Catweazle</h1>Catweazle is a magician from the time of the Normans who is cast into the future by magic. With the help of two boys he uses magic in an attempt to return to his own time. Catweazle is a magician from the time of the Normans who is cast into the future by magic.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Disslike</button>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-            <div class="card shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" img:width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="0%" fill="#55595c"/><img src="Images\Free Guy.jpg" alt="filled Tommatos" width="100%" height="0%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
-              <div class="text-light bg-dark">
-                <p class="free guy"><h1>Free Guy</h1> In "Free Guy," a bank teller who discovers he is actually a background player in an open-world video game, decides to become the hero of his own story... one he rewrites himself. Now in a world where there are no limits, he is determined to be the guy who saves his world his way... before it is too late.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Dislike</button>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="50%" fill="#55595c"/><img src="Images\Jungle Crouse.jpg" alt="filled Tommatos" width="100%" height="0%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
-            <div class="text-light bg-dark">
-              <p class="jungle cruise"><h1>Jungle Cruise</h1>Based on Disneyland's theme park ride where a small riverboat takes a group of travelers through a jungle filled with dangerous animals and reptiles but with a supernatural element. 127 Min.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Disslike</button>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
- 
+    </main>
 
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><img src="Images\Space Jam.jpg" alt="filled Tommatos" width="100%" height="0%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
-            <div class="text-light bg-dark">
-              <p class="space jam"><h1>Space Jam A.N.L</h1>Space Jam: A New Legacy is a 2021 American live-action/animated sports comedy film directed by Malcolm D. Lee. It is the first theatrically-released film to feature the Looney Tunes characters since Looney Tunes: Back in Action (2003), and is also a combination of live-action, traditional hand-drawn animation, and 3D CGI effects.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Disslike</button>
-                </div>
-                
-              </div>
+    <footer class="bg-primary text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <div class="bg-dark text-white text-center p-3">
+                <h1 class="mb-1 align-content-around">Movie Factory
+                </h1>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="0" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><img src="Images\Black Widow.jpg" alt="filled Tommatos" width="100%" height="0%"><text x="50%" y="50%" fill="#eceeef" dy=".3em"></svg>
+    </footer>
 
-            <div class="text-light bg-dark">
-              <p class="black widow"><h1>Black Widow</h1>Storyline In Marvel Studios' action-packed spy thriller "Black Widow," Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger. 134 Min. </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Like</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Disslike</button>
-                </div>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-  
-</main>
+    <script type="text/javascript" src="js/data.json"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 
-<footer class="text-muted py-5">
-  <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <h1 class="mb-1 align-content-around">Movie Factory</h1>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> 
 </body>
+
 </html>

@@ -1,0 +1,37 @@
+var movies = `[{
+    "name": "Cash Truck",
+    "imag": "Images/Cash Truck.jpg",
+    "description": "A mysterious vengeful man takes a job as a security guard for a money transport company amidst a series of violent robberies.",
+    "minutes": "119 Min.",
+    "likes": 0
+},{
+    "name": "Catweazle",
+    "imag": "Images/Catweazle.jpg",
+    "description": "Catweazle is a magician from the time of the Normans who is cast into the future by magic.",
+    "minutes": "96 Min.",
+    "likes": 0
+},{
+    "name": "Free Guy",
+    "imag": "Images/Free Guy.jpg",
+    "description": "A bank teller who discovers he is actually a background player in an open-world video game, decides to become the hero of his own story.",
+    "minutes": "115 Min.",
+    "likes": 0
+},{
+    "name": "Jungle Cruise",
+    "imag": "Images/Jungle Crouse.jpg",
+    "description": "Based on Disneyland's theme park ride where a small riverboat takes a group of travelers through a jungle filled with dangerous animals and reptiles but with a supernatural element.",
+    "minutes": "127 Min.",
+    "likes": 0
+},{
+    "name": "Space Jam A.N.L",
+    "imag": "Images/Space Jam.jpg",
+    "description": "Space Jam: A New Legacy is a 2021 American live-action/animated sports comedy film directed by Malcolm D. Lee.",
+    "minutes": "115 Min.",
+    "likes": 0
+},{
+    "name": "Black Widow",
+    "imag": "Images/Black Widow.jpg",
+    "description": "Storyline In Marvel Studios' action-packed spy thriller Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.",
+    "minutes": "134 Min.",
+    "likes": 0
+}]`
